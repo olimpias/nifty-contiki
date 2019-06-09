@@ -39,7 +39,7 @@ add_script({Name, Args, Content}, Script) ->
     ScriptElement = {script, [], [Script]},
     PCElement = {plugin_config, [], [ScriptElement, 
 				     {active, [], ["true"]}]},
-    PluginElement = {plugin, [], ["org.contikios.cooja.plugins.ScriptRunner",
+    PluginElement = {plugin, [], ["se.sics.cooja.plugins.ScriptRunner",
 				  PCElement,
 				  {width, [], ["100"]},
 				  {z, [], ["0"]},

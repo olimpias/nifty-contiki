@@ -5,12 +5,12 @@ import java.util.LinkedList;
 import java.util.Observable;
 import java.util.Observer;
 
-import org.contikios.cooja.ConvertedRadioPacket;
-import org.contikios.cooja.RadioConnection;
-import org.contikios.cooja.RadioMedium;
-import org.contikios.cooja.RadioPacket;
-import org.contikios.cooja.Simulation;
-import org.contikios.cooja.interfaces.Radio;
+import se.sics.cooja.ConvertedRadioPacket;
+import se.sics.cooja.RadioConnection;
+import se.sics.cooja.RadioMedium;
+import se.sics.cooja.RadioPacket;
+import se.sics.cooja.Simulation;
+import se.sics.cooja.interfaces.Radio;
 
 import se.uu.it.parapluu.cooja_node.analyzers.FragHeadPacketAnalyzer;
 import se.uu.it.parapluu.cooja_node.analyzers.ICMPv6Analyzer;

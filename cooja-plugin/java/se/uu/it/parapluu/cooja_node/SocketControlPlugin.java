@@ -17,11 +17,11 @@ import javax.swing.Box;
 import javax.swing.JLabel;
 
 //import org.apache.log4j.Logger;
-import org.contikios.cooja.ClassDescription;
-import org.contikios.cooja.Cooja;
-import org.contikios.cooja.PluginType;
-import org.contikios.cooja.Simulation;
-import org.contikios.cooja.VisPlugin;
+import se.sics.cooja.ClassDescription;
+import se.sics.cooja.Cooja;
+import se.sics.cooja.PluginType;
+import se.sics.cooja.Simulation;
+import se.sics.cooja.VisPlugin;
 
 import com.ericsson.otp.erlang.OtpAuthException;
 import com.ericsson.otp.erlang.OtpConnection;

@@ -13,7 +13,7 @@ import java.util.Observer;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 // import org.apache.log4j.Logger;
-import org.contikios.cooja.interfaces.SerialPort;
+import se.sics.cooja.interfaces.SerialPort;
 
 public class SerialObserver implements Observer {
 	// private static Logger logger = Logger.getLogger(MessageHandler.class);

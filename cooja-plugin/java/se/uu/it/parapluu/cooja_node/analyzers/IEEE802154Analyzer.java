@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 import org.apache.log4j.Logger;
 
-import org.contikios.cooja.util.StringUtils;
+import se.sics.cooja.util.StringUtils;
 
 import com.ericsson.otp.erlang.OtpErlangAtom;
 import com.ericsson.otp.erlang.OtpErlangInt;

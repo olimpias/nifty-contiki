@@ -13,10 +13,10 @@ import java.util.Observable;
 import java.util.Observer;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.contikios.cooja.Simulation;
-import org.contikios.cooja.interfaces.LED;
-import org.contikios.cooja.interfaces.Radio;
-import org.contikios.cooja.interfaces.Radio.RadioEvent;
+import se.sics.cooja.Simulation;
+import se.sics.cooja.interfaces.LED;
+import se.sics.cooja.interfaces.Radio;
+import se.sics.cooja.interfaces.Radio.RadioEvent;
 
 import se.uu.it.parapluu.cooja_node.analyzers.PacketAnalyzer;
 

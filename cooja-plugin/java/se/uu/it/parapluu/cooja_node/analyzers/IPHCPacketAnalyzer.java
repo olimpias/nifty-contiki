@@ -2,7 +2,7 @@ package se.uu.it.parapluu.cooja_node.analyzers;
 
 import java.util.LinkedList;
 
-import org.contikios.cooja.util.IPUtils;
+import se.sics.cooja.util.IPUtils;
 
 import com.ericsson.otp.erlang.OtpErlangAtom;
 import com.ericsson.otp.erlang.OtpErlangInt;

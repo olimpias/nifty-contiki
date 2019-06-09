@@ -15,21 +15,21 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
 import org.apache.log4j.Logger;
-import org.contikios.cooja.Mote;
-import org.contikios.cooja.MoteType;
-import org.contikios.cooja.RadioMedium;
-import org.contikios.cooja.SimEventCentral.LogOutputEvent;
-import org.contikios.cooja.SimEventCentral.LogOutputListener;
-import org.contikios.cooja.Simulation;
-import org.contikios.cooja.TimeEvent;
-import org.contikios.cooja.interfaces.LED;
-import org.contikios.cooja.interfaces.Radio;
-import org.contikios.cooja.interfaces.SerialPort;
-import org.contikios.cooja.mote.memory.MemoryInterface.Symbol;
-import org.contikios.cooja.mote.memory.VarMemory;
-import org.contikios.cooja.radiomediums.DGRMDestinationRadio;
-import org.contikios.cooja.radiomediums.UDGM;
-import org.contikios.cooja.radiomediums.DirectedGraphMedium;
+import se.sics.cooja.Mote;
+import se.sics.cooja.MoteType;
+import se.sics.cooja.RadioMedium;
+import se.sics.cooja.SimEventCentral.LogOutputEvent;
+import se.sics.cooja.SimEventCentral.LogOutputListener;
+import se.sics.cooja.Simulation;
+import se.sics.cooja.TimeEvent;
+import se.sics.cooja.interfaces.LED;
+import se.sics.cooja.interfaces.Radio;
+import se.sics.cooja.interfaces.SerialPort;
+import se.sics.cooja.mote.memory.MemoryInterface.Symbol;
+import se.sics.cooja.mote.memory.VarMemory;
+import se.sics.cooja.radiomediums.DGRMDestinationRadio;
+import se.sics.cooja.radiomediums.UDGM;
+import se.sics.cooja.radiomediums.DirectedGraphMedium;
 
 import se.uu.it.parapluu.cooja_node.analyzers.PacketAnalyzer;
 
